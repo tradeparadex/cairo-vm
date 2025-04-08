@@ -17,7 +17,7 @@ thiserror-no-std = { workspace = true }
 num-bigint = { workspace = true }
 num-traits = { workspace = true }
 axum = "0.6.18"
-tokio = {version = "1.28.2", features = ["rt", "macros","rt-multi-thread"]}
+tokio = {version = "1.38.2", features = ["rt", "macros","rt-multi-thread"]}
 serde = { workspace = true }
 tower = { version = "0.4.13", features = ["util"] }
 tower-http = { version = "0.4.0", features = ["full"] }
